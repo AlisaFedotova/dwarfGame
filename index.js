@@ -25,6 +25,7 @@ function initHand(hand) {
     for (let i = 0; i < NUMBER_OF_HANDFRAMES; i++) createFrame(player);
 }
 
+
 function createFrame(frameParent) {
     let frame = document.createElement('div');
     frame.className = 'frame';
